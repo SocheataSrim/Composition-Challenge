@@ -1,0 +1,21 @@
+public class Main {
+    public static void main(String[] args) {
+
+        SmartKitchen smartKitchen = new SmartKitchen();
+
+     //   smartKitchen.getDishWasher().setHasWorktoDo(true);
+      //  smartKitchen.getIceBox().setHasWorktoDo(true);
+     //   smartKitchen.getBrewMaster().setHasWorktoDo(true);
+
+      //  smartKitchen.getDishWasher().doDishes();
+      //  smartKitchen.getIceBox().orderFood();
+      //  smartKitchen.getBrewMaster().brewCoffee();
+
+        smartKitchen.setKitchenState(true, false, true);
+        smartKitchen.doKitchenWOrk();
+
+
+
+
+    }
+}
